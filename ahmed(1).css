@@ -1,0 +1,169 @@
+.daddyCantainer {
+  display: grid;
+  grid-template-columns: 900px 25%;
+}
+
+.gridJustIn {
+  display: grid;
+  grid-template-columns: 366.375px 366.375px;
+  grid-template-rows: 60px 70px 70px 60px;
+}
+
+.justIn {
+  text-align: center;
+  color: red;
+}
+
+.imgContent {
+  display: grid;
+  grid-template-columns: 70px 100px;
+}
+
+.imgContent > div > img {
+  height: 50px;
+  width: 70px;
+}
+
+.textAndTime {
+  width: 220px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.textDiv > h5,
+.timeDiv > h5 {
+  margin: 0px 0px 0px 10px !important;
+}
+
+.timeDiv {
+  color: red;
+}
+.zdnetImg > img {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 712.75px;
+  height: 250px;
+}
+
+.lastRow {
+  padding-top: 10px;
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: 100px 612.75px;
+}
+
+.lastRowImg > img {
+  height: 180px;
+  width: 200px;
+}
+
+.textFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.textFlexh4 > h3,
+.textFlexh5 > p,
+.textFlexh5Time > p {
+  margin-left: 120px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.textFlexh5 > p,
+.textFlexh5Time > p {
+  font-size: 13px;
+}
+
+.lastTimeFlex {
+  color: red;
+}
+
+.lastTimeFlex1 {
+  color: silver;
+}
+
+#inputArea {
+  border: 1px solid silver;
+  height: 40px;
+  width: 200px;
+}
+
+#btn {
+  border: none;
+  height: 40px;
+  width: 120px;
+  background-color: red;
+  color: white;
+}
+
+.btn2Div {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  height: 40px;
+  width: 40px;
+  border: 1px solid red;
+  background-color: #ffff;
+  padding-top: 12px;
+  padding-right: 6px;
+  padding-left: 6px;
+  color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.btn2Div {
+  display: flex;
+  justify-content: center;
+}
+
+#btn2 {
+  padding-bottom: 10px;
+  border: none;
+  background-color: white;
+  font-size: 11px;
+}
+
+.dot:hover {
+  background-color: black;
+  color: white;
+}
+
+.imgNewDiv > img {
+  width: 130%;
+  height: 400px;
+}
+
+.imgNewDiv {
+  display: grid;
+  color: white;
+  grid-template-rows: 250px;
+}
+
+.imgNewDiv > div {
+  margin-left: 10px;
+}
+
+.row3Parent {
+  width: 130%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row3Img > img {
+  margin-top: 10px;
+  margin-right: 30px;
+  height: 70px;
+  width: 90px;
+}
+
+.imgNewDiv {
+  margin-top: 10px;
+}

@@ -1,0 +1,329 @@
+.ahmed-div-cantainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ahmed-div-cantainer > img {
+  padding: 10px;
+}
+
+.ahmed-h5-div {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.ahmed-h5-div > div {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.ahmed-div-nav {
+  background-color: steelblue;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: aqua;
+}
+
+a:hover {
+  color: black;
+  border: 1px solid black;
+}
+
+.ahmed-h2-tagline {
+  margin-top: 10px;
+  width: 1335px;
+  height: 88px;
+  background-color: steelblue;
+  color: lightgreen;
+}
+
+.ahmed-h2-tagline > div {
+  display: flex;
+  justify-content: center;
+}
+
+.ahmed-home-cantainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#home,
+#about,
+#contact,
+#loginAndRegister,
+#keepInTouch {
+  text-align: center;
+  font-size: 30px;
+}
+
+#intro {
+  font-size: 25px;
+}
+
+.ahmed-home-img > img {
+  height: 500px;
+  width: 500px;
+}
+
+.ahmed-home-text > p {
+  margin-right: 200px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.ahmed-about-cantainer > div > img {
+  height: 100px;
+}
+
+.ahmed-about-cantainer {
+  display: grid;
+  grid-template-columns: 200px 400px 200px 100px;
+  justify-content: space-around;
+}
+
+.ahmed-about-cantainer-p {
+  font-size: 20px;
+  margin: 40px 200px 100px 200px;
+  font-weight: normal;
+}
+
+.ahmed-contact-cantainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ahmed-form-div {
+  padding: 10px;
+  width: 200px;
+  height: 350px;
+  border: 1px solid black;
+  background-color: steelblue;
+}
+
+#text-area {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.ahmed-form-div > label {
+  margin-bottom: 10px;
+}
+
+.ahmed-p-div {
+  width: 800px;
+}
+
+#btn-send,
+#btn-submit,
+#btn-register,
+#subscribe {
+  border: none;
+  height: 50px;
+  width: 100px;
+  background-color: aqua;
+  color: white;
+}
+
+#btn-send:hover,
+#btn-submit:hover,
+#btn-register:hover,
+#subscribe:hover {
+  background-color: black;
+  border: 2px double aqua;
+}
+
+.ahmed-loginReg-cantainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ahmed-login-div {
+  border: 1px solid black;
+  width: 600px;
+  padding: 10px;
+  color: white;
+  background-color: steelblue;
+}
+
+.ahmed-login-div > a,
+label,
+button {
+  padding-top: 10px;
+}
+
+.ahmed-reg-div {
+  border: 1px solid black;
+  padding: 20px;
+  width: 650px;
+  background-color: steelblue;
+  color: white;
+}
+
+.ahmed-reg-div > label,
+input,
+select,
+button {
+  margin-top: 10px;
+}
+
+.ahmed-keep-cantainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+.ahmed-keep-cantainer > div > a > img {
+  height: 100px;
+  width: 100px;
+}
+
+.ahmed-keep-cantainer > div > a:hover {
+  border: none;
+}
+
+.ahmed-keep-cantainer > div > a > img:hover {
+  height: 120px;
+  width: 120px;
+}
+
+.ahmed-someR-news-cantainer,
+.ahmed-someR-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.ahmed-someR-div-phone,
+.ahmed-someR-div-email {
+  display: flex;
+  flex-direction: row;
+}
+
+.ahmed-someR-div-phone > img,
+.ahmed-someR-div-email > img {
+  height: 20px;
+  width: 20px;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.ahmed-newsletter-div {
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  background-color: steelblue;
+  margin-right: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#visualStudio {
+  margin-right: 10px;
+  height: 200px;
+  width: 100px;
+}
+
+#ahmed-copyright-footer {
+  background-color: steelblue;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  height: 25px;
+}
+
+/* media query added for width: 575px */
+@media screen and (max-width: 575px) {
+  .ahmed-h2-tagline {
+    width: 560px;
+  }
+  .ahmed-home-cantainer {
+    width: 560px;
+  }
+  .ahmed-home-text {
+    width: 280px;
+  }
+  .ahmed-home-text > p {
+    width: 280px;
+  }
+  .ahmed-home-img {
+    width: 280;
+  }
+  .ahmed-home-img > img {
+    height: 1060px;
+    width: 280px;
+  }
+  .ahmed-about-cantainer {
+    grid-template-columns: 140px 140px 140px 140px;
+    width: 560px;
+  }
+  .ahmed-about-cantainer > div {
+    width: 140px;
+  }
+  .ahmed-about-cantainer > div > img {
+    width: 140px;
+  }
+  .ahmed-about-cantainer-p {
+    margin: 0px 0px 0px 0px;
+    width: 560px;
+  }
+  .ahmed-about-cantainer-p > p {
+    width: 560px;
+  }
+  .ahmed-contact-cantainer {
+    width: 560px;
+  }
+  .ahmed-form-div,
+  .ahmed-p-div,
+  .ahmed-form-div > form {
+    width: 200px;
+  }
+
+  .ahmed-p-div > p {
+    font-size: 25px;
+  }
+  #text-area {
+    width: 150px;
+  }
+  .ahmed-loginReg-cantainer {
+    width: 260px;
+  }
+  .ahmed-login-div,
+  .ahmed-reg-div {
+    margin: 30px;
+    width: 280px;
+  }
+  .ahmed-keep-cantainer {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 560px;
+  }
+  .ahmed-keep-cantainer > div > a > img {
+    width: 120px;
+  }
+  .ahmed-keep-cantainer > div > a > img:hover {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .ahmed-div-nav {
+    width: 550px;
+  }
+  .ahmed-h2-tagline {
+    width: 550px;
+  }
+}
